@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.quantity {
+    font-weight: bold;
+}
+
+.remove-btn {
+    background: red;
+    color: white;
+    border: none;
+}
+
+.plus-btn,
+.minus-btn {
+    width: 30px;
+}
