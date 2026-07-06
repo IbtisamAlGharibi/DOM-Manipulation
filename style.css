@@ -1,0 +1,70 @@
+
+body{
+    background:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.container{
+    width:500px;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin-bottom:15px;
+    font-size:16px;
+}
+
+#addBtn{
+    width:100%;
+    padding:12px;
+    background:#234c73;
+    color:white;
+    border:none;
+    cursor:pointer;
+    font-size:16px;
+    margin-bottom:20px;
+}
+
+#addBtn:hover{
+    background:#183650;
+}
+
+.book-card{
+    background:#eeeeee;
+    padding:15px;
+    margin-bottom:15px;
+    border-radius:8px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.delete-btn{
+    background:red;
+    color:white;
+    border:none;
+    padding:8px 12px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+.delete-btn:hover{
+    background:darkred;
+}
+
+h3{
+    margin-bottom:15px;
+}
