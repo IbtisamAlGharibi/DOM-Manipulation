@@ -1,0 +1,34 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:30px;
+}
+
+input,
+textarea{
+    width:300px;
+    padding:8px;
+}
+
+button{
+    padding:8px 15px;
+    cursor:pointer;
+}
+
+#notesContainer{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
+    gap:15px;
+    margin-top:20px;
+}
+
+.note-card{
+    border:1px solid black;
+    padding:15px;
+}
+
+.delete-btn{
+    background:red;
+    color:white;
+    border:none;
+    margin-top:10px;
+}
